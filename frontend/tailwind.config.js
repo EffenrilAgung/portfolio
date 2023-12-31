@@ -2,6 +2,9 @@
 export default {
 	content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
 	theme: {
+		container: {
+			center: true,
+		},
 		extend: {
 			screens: {
 				sm: '640px',
@@ -24,9 +27,14 @@ export default {
 				'white-100': '#f9f9f9',
 				'white-200': '#9f9f9f',
 				'white-300': '#323232',
+				'white-400': '#D9D9D9',
 				blue: '#2984D9',
 			},
 		},
 	},
+	variants: {
+		fill: ['hover', 'focus'],
+	},
+
 	plugins: [],
 };
