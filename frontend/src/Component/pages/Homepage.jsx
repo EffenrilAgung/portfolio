@@ -12,7 +12,6 @@ import mongodbIcon from '../../assets/icon/mongodb.svg';
 import githubIcon from '../../assets/icon/github.svg';
 import githubTentacleIcon from '../../assets/icon/githubTentacle.svg';
 import linkedinIcon from '../../assets/icon/linkedin.svg';
-import snow from '../../assets/icon/snow.svg';
 
 import ContainerItem from '../templates/container_content/ContainerItem';
 const Homepage = () => {
@@ -212,7 +211,7 @@ const Homepage = () => {
 						</div>
 						<div className="mb-5 mt-[50px]">
 							<h2 className="text-white font-bold text-4xl lg:text-6xl ">
-								Let's
+								Lets
 							</h2>
 							<h2 className="text-white font-bold text-4xl lg:text-6xl ">
 								Work <span className="text-blue">Together</span>
