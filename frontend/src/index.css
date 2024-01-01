@@ -12,3 +12,7 @@ body {
 	color: #fff;
 	padding-bottom: 2rem;
 }
+
+.bg-experience {
+	background: linear-gradient(109deg, #4b4b4b 0%, rgba(56, 56, 56, 0.78) 100%);
+}
